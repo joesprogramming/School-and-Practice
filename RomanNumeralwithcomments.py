@@ -1,5 +1,5 @@
 #Ask user to input a number
-# Joe Joseph
+
 # Intro to Programming
 
 # Ask for user to input a whole number and save then number as the integer variable
