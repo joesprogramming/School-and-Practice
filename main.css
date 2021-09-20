@@ -1,0 +1,112 @@
+/*
+<!-- 
+*****************************************************************************
+Title: Contact
+Use: Contact Business
+Author: Joe Joseph
+School/Term: Southern Illinois University, Fall, 2021
+Developed: Sep 18, 2021 
+Tested: Sep 18, 2021; Passed on Firefox and Chrome browsers.
+******************************************************************************
+--> */
+/*Margin and Background */
+html {
+    background-color: gainsboro;
+    margin: 10px;
+}
+
+/* font and width */
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    width: 725px;
+
+}
+
+/* Border around image */
+
+#myimage { 
+    float: right;
+    position: relative;
+    border: 1px solid blue;
+    border-radius: 5px 5px 5px 5px;
+    
+
+}
+
+/*
+header img { float: right;
+    border: 5px solid blue;
+    border-radius: 5px 5px 5px 5px;
+} */
+
+
+p3 {
+    font-size: 70%;
+}
+
+/* main Column */
+main {
+    clear: left;
+    height: 500px;
+    width: 500px;
+    float: left;
+
+}
+/* Font size main */
+
+main p1{
+    font-size: 80%;
+}
+/* Styles for the sidebar */
+aside {
+    width: 224px;
+    float: right;
+    border-left: 1px solid black;
+    
+}
+
+header h3 {
+    text-align: center;
+}
+
+
+/* Padding for headings */
+h1, h2, h3{
+
+    padding: 10px;
+}
+
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+li {
+    padding-left: 10px;
+}
+/* address font */
+address {
+    font-size: 80%;
+}
+
+#nav_menu ul {
+    list-style: none;
+    padding: 1em 0; /* padding above and below li elements */
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; }
+
+#nav_menu ul li {
+    display: inline;
+    pading: 0 1.5em;
+}
+
+#nav_menu ul li a {
+    font-weight: bold;
+    color: blue;
+
+}
+
+
+
